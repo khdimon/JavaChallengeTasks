@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 public class WordsCounter {
     public static String WORD_SYMBOLS_PATTERN = "[a-zA-Z]";
     public static String FILE_ENCODING = "UTF-8";
-    public static String FILE_PATH = "D:\\Dima\\JavaProjects\\JavaChallengeTasks\\example.txt";
+    public static String FILE_PATH = "/Users/dkhol/IdeaProjects/JavaChallengeTasks/example.txt";
 
     private Map<String, Integer> words = new LinkedHashMap<>();
 
