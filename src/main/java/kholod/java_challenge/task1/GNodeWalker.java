@@ -14,10 +14,8 @@ public class GNodeWalker {
         if (!nodes.contains(node)) {
             nodes.add(node);
         }
-        if (node.getChildren().length != 0) {
-            for (GNode n : node.getChildren()) {
-                walkGraph(n, nodes);
-            }
+        for (GNode n : node.getChildren()) {
+            walkGraph(n, nodes);
         }
     }
 }

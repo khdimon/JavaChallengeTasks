@@ -14,7 +14,7 @@ public class App {
         GNode J = new MyGNode("J", new GNode[0]);
         GNode E = new MyGNode("E", new GNode[]{K, L});
         GNode B = new MyGNode("B", new GNode[]{E, F});
-        GNode C = new MyGNode("C", new GNode[]{G, F});
+        GNode C = new MyGNode("C", new GNode[]{G});
         GNode D = new MyGNode("D", new GNode[]{H, I, J});
         GNode A = new MyGNode("A", new GNode[]{B, C, D});
 
